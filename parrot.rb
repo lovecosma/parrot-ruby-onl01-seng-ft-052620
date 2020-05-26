@@ -3,6 +3,5 @@
 def parrot (sound = "Squawk!", phrase = "Pretty bird!")
 @sound = sound
 @phrase = phrase
-puts "Squawk!"
-puts "Pretty bird!"
+return "#{sound}, #{phrase}"
 end
